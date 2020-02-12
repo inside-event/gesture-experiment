@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "proxy": "ngrok http 4321 -subdomain=gesture-experiment"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "brain": "^1.0.0",
+    "brainjs": "^0.7.4",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "http-proxy": "^1.18.0",
+    "ngrok": "^3.2.7",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0",
+    "ws": "^7.2.1"
+  }
+}
